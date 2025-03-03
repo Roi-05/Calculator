@@ -24,11 +24,13 @@ body {
 
 #input-container input {
     width: 350px;
+    height: 100px;
     padding: 20px 20px;
     box-sizing: border-box;
     background: rgb(36, 79, 129);
     border: none;
     color: white;
+    text-align: end;
 }
 
 #button-container {
