@@ -1,14 +1,18 @@
 function add(a, b) {
-    return a + b;
+    const result = a + b;
+    return (result % 1 === 0) ? (a + b) : (a + b).toFixed(5);
 }
 function multiply(a, b) {
-    return a * b;
+    const result = a * b;
+    return (result % 1 === 0) ? (a * b) : (a * b).toFixed(5);
 }
 function subtract(a, b) {
-    return a - b;
+    const result = a - b;
+    return (result % 1 === 0) ? (a - b) : (a - b).toFixed(5);
 }
 function divide(a, b) {
-    return a / b;
+    const result = a / b;
+    return (result % 1 === 0) ? (a / b) : (a / b).toFixed(5);
 }
 
 
